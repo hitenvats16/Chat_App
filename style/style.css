@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0em 1.5em 0 1.5em;
+    align-content: center;
+    height: 10%;
+}
+
+.nav img{
+    width: 6em;
+}
+
+.nav h2{
+    height: min-content;
+    margin: auto 0;
+    font-size: 1em;
+}
+
+.msg_container{
+    width: auto;
+    height: 80%;
+    margin: 0 1.5em 0 1.5em;
+    border-radius: 5px;
+    border: 0.1em solid black;
+    overflow-y: scroll;
+}
+
+.msg_form{
+    margin: 0.2em 1.5em 0 1.5em;
+}
+
+#msg_input{
+    width: 90%;
+    padding: 0.1em 0 0.1em 0.3em;
+    border-radius: 5px;
+    border: 0.1em solid black;
+}
+
+#send_btn{
+    width: 9%;
+    margin: 0;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 0.2em;
+    border-radius: 5px;
+}
+
+.msg{
+    width: max-content;
+    height: min-content;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+
+.client_msg{
+    width: max-content;
+    height: min-content;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    color: rgb(0, 0, 0);
+    border: 0.1em solid black;
+    padding: 0.5em;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+
+.user_joined{
+    font-size: 1em;
+    font-weight: 200;
+    width: 100%;
+    text-align: center;
+    margin: 0.1em 0;
+    color: rgb(119, 119, 119);
+}
+
+@media only screen and (max-width: 525px) {
+    #send_btn{
+        display: none;
+    }
+
+    #msg_input{
+        width: 100%;
+        padding: 0.1em 0 0.1em 0.3em;
+        border-radius: 5px;
+        border: 0.1em solid black;
+    }
+}
