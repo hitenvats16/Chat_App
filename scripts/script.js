@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000')
+const socket = io('https://glacial-wildwood-59563.herokuapp.com/')
 const msg_form = document.querySelector(".msg_form")
 const msg_inp = document.querySelector("#msg_input")
 const msg_container = document.querySelector(".msg_container")
